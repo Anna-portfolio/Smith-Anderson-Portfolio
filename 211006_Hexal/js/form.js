@@ -29,7 +29,7 @@ form.addEventListener("submit", (e) => {
 
     //check if there are any errors in the form
     if (errorArray.length > 0) {
-        //if any errors occur, prevent page from submitting the form and displays all the errors on the screen separated by comma
+        //if any errors occur, prevent page from submitting the form and displays all the errors on the screen in a column
         e.preventDefault();
         formErrors.style.display = "block";
         formErrors.innerText = errorArray.join("\n");

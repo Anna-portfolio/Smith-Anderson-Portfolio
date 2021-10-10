@@ -1,0 +1,91 @@
+.form-container {
+    @include flex-center(column);
+    background: $background-primary-color;
+    color: $font-form;
+    text-align: left;
+    padding: 5rem 10rem;
+
+    h1 {
+        font-family: $font-captions;
+        font-weight: map-get($font-weights, regular);
+        font-size: map-get($font-sizes, caption-lg);
+    }
+    h3 {
+        font-family: $font-captions;
+        font-weight: map-get($font-weights, regular);
+        font-size: map-get($font-sizes, caption-sm);
+    }
+    &__content {
+        @include flex-center(row);
+        text-align: justify;
+        justify-content: left;
+
+        #form {
+            width: 40vw;
+            margin-right: 3vw;
+        }
+        &__form {
+            input {
+                opacity: 100%;
+                background: #686666;
+                margin: 1.5rem 0rem;
+                color: #000000 !important;
+                border: none;
+            }
+
+            &__button__container {
+                display: flex;
+                justify-content: right;
+
+                &__button {
+                    content: "";
+                    border: none;
+                    min-height: 50px;
+                    min-width: 100px;
+                    line-height: 50px;
+                    background-color: $background-secondary-color;
+                    color: $font-form;
+                    font-style: map-get($font-weights, bold);
+                }
+            }
+        }
+        &__text {
+            font-family: $font-paragraph;
+            max-width: 25vw;
+            padding: 0 3vw 0 2vw;
+            text-align: left;
+            line-height: 2;
+            margin-top: 1.5rem;
+
+            &__description {
+                text-align: justify;
+                padding-bottom: 2rem;
+            }
+
+            &__contact {
+                font-weight: map-get($font-weights, bold);
+
+                &__item {
+                    display: flex;
+                    flex-direction: row;
+
+                    &__icon img {
+                        height: 25px;
+                        width: 25px;
+                        padding-right: 5px;
+                    }
+                }
+            }
+        }
+    }
+    #form-errors {
+        display: none;
+        color: $font-error;
+        font-weight: map-get($font-weights, bold);
+        padding-top: 1rem;
+    }
+    #form-success {
+        @extend #form-errors;
+        color: $font-primary-color;
+    }
+}

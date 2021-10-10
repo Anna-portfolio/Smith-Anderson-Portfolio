@@ -1,0 +1,94 @@
+.portfolio-container {
+    @include flex-center(column);
+    width: 100%;
+    margin: 5vh 0 5vh 0;
+    align-items: center;
+
+    &__images {
+        &__row01,
+        &__row02,
+        &__row03 {
+            display: flex;
+            flex-direction: row !important;
+            justify-content: center;
+        }
+
+        &__img10 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_10.png");
+        }
+        &__img11 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_11.png");
+        }
+        &__img12 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_12.png");
+        }
+        &__img13 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_13.png");
+        }
+        &__img20 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_20.png");
+        }
+        &__img21 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_21.png");
+        }
+        &__img22 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_22.png");
+        }
+        &__img23 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_23.png");
+        }
+        &__img24 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_24.png");
+        }
+        &__img30 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_30.png");
+        }
+        &__img31 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_31.png");
+        }
+        &__img32 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_32.png");
+        }
+        &__img33 {
+            @include hexagon;
+            background-image: url("../../images/portfolio/img_33.png");
+        }
+    }
+    &__carousel {
+        @include flex-center(row);
+        margin: 1rem 2rem;
+
+        &__btn {
+            content: "";
+            height: 0.5rem;
+            width: 0.5rem;
+            background: $carousel;
+            margin: 0.3rem;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &__active {
+                @extend .portfolio-container__carousel__btn;
+                background: $carousel-active;
+            }
+        }
+    }
+}
+hr {
+    color: #e5e9ec;
+    margin: 1rem 2rem;
+}

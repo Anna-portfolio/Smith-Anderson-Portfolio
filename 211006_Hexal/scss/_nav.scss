@@ -1,0 +1,38 @@
+nav {
+    max-height: 10vh !important;
+    line-height: 1;
+    background-color: $background-primary-color;
+}
+
+.menu-nav {
+    @include flex-center(row);
+
+    img {
+        margin: 0.5rem 2rem 1rem 2rem;
+    }
+
+    &__item {
+        list-style: none;
+        padding-top: 1rem;
+    }
+    a {
+        padding-top: 0.5rem;
+    }
+    a:hover {
+        color: $font-menu-active;
+    }
+    &__link {
+        color: $font-menu;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: $font-captions;
+        font-weight: map-get($font-weights, medium);
+        font-size: map-get($font-sizes, small);
+        padding: 2rem;
+
+        &__active {
+            @extend .menu-nav__link;
+            color: $font-menu-active;
+        }
+    }
+}

@@ -1,0 +1,67 @@
+.about-container {
+    @include flex-center(row);
+    height: 60vh;
+    background: $background-secondary-color;
+    padding: 5rem;
+
+    &__image {
+        @include hexagon;
+        background-image: url("../../images/about_me/about-me.png");
+    }
+    &__line hr {
+        border: 0;
+        box-sizing: border-box;
+        border-top: 1px solid #219d85;
+        transform: rotate(90deg);
+    }
+    &__content {
+        &__text {
+            font-family: $font-captions;
+            font-weight: map-get($font-weights, regular);
+            text-align: left;
+            max-width: 60vw;
+            padding-left: 2rem;
+            padding-bottom: 1rem;
+
+            h1 {
+                color: $font-primary-color;
+                font-family: $font-captions;
+                font-size: map-get($font-sizes, caption-lg);
+            }
+            p {
+                color: $font-primary-color;
+                font-family: $font-paragraph;
+            }
+            h3 {
+                color: $font-secondary-color;
+                font-family: $font-captions;
+                font-size: map-get($font-sizes, caption-sm);
+                padding-bottom: 1rem;
+            }
+        }
+        &__social-icons {
+            text-align: right;
+            a {
+                text-decoration: none;
+            }
+            .fa-facebook-square,
+            .fa-twitter-square,
+            .fa-google-plus-square,
+            .fa-pinterest-square,
+            .fa-linkedin {
+                color: $font-secondary-color;
+            }
+            i {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.fab i {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+//background colors
+$background-primary-color: #323232;
+$background-secondary-color: #2eb398;
+$background-footer: #222222;
+
+//fonts
+$font-captions: "Maven Pro", sans-serif;
+$font-paragraph: "IBM Plex Sans Thai Looped", sans-serif;
+$font-form: "Roboto", sans-serif;
+
+//font colors
+$font-primary-color: #d7fcf5;
+$font-secondary-color: #23806d;
+$font-menu: #ffffff;
+$font-menu-active: #30b296;
+$font-form: #e0e0e0;
+$font-form-content: #ffffff;
+$font-error: #e65353;
+$font-footer: #8b8784;
+
+//carousel dots
+$carousel: #ded2c6;
+$carousel-active: #8b8784;
+
+// .icon-theme {
+//     --fa-secondary-opacity: 1;
+//     --fa-primary-color: #a4dbd5;
+//     --fa-secondary-color: #01a894;
+// }
+
+//hexagon styling
+@mixin hexagon {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-size: cover;
+    height: 12rem;
+    width: 12rem;
+    line-height: 12rem;
+    margin: 0 0.5rem;
+    background-position: center;
+}
+//maps
+$font-weights: (
+    "regular": 400,
+    "medium": 500,
+    "bold": 700,
+);
+$font-sizes: (
+    "small": 12px,
+    "regular": 16px,
+    "caption-sm": 1.5rem,
+    "caption-lg": 2.5rem,
+);
+//mixins
+@mixin flex-center($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    text-align: center;
+}

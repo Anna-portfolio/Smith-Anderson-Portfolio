@@ -1,0 +1,530 @@
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+nav {
+  max-height: 10vh !important;
+  line-height: 1;
+  background-color: #323232;
+}
+
+.menu-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.menu-nav img {
+  margin: 0.5rem 2rem 1rem 2rem;
+}
+
+.menu-nav__item {
+  list-style: none;
+  padding-top: 1rem;
+}
+
+.menu-nav a {
+  padding-top: 0.5rem;
+}
+
+.menu-nav a:hover {
+  color: #30b296;
+}
+
+.menu-nav__link, .menu-nav__link__active {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 2rem;
+}
+
+.menu-nav__link__active {
+  color: #30b296;
+}
+
+.portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 5vh 0 5vh 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio-container__images__row01, .portfolio-container__images__row02, .portfolio-container__images__row03 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio-container__images__img10 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_10.png");
+}
+
+.portfolio-container__images__img11 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_11.png");
+}
+
+.portfolio-container__images__img12 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_12.png");
+}
+
+.portfolio-container__images__img13 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_13.png");
+}
+
+.portfolio-container__images__img20 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_20.png");
+}
+
+.portfolio-container__images__img21 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_21.png");
+}
+
+.portfolio-container__images__img22 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_22.png");
+}
+
+.portfolio-container__images__img23 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_23.png");
+}
+
+.portfolio-container__images__img24 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_24.png");
+}
+
+.portfolio-container__images__img30 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_30.png");
+}
+
+.portfolio-container__images__img31 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_31.png");
+}
+
+.portfolio-container__images__img32 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_32.png");
+}
+
+.portfolio-container__images__img33 {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/portfolio/img_33.png");
+}
+
+.portfolio-container__carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 1rem 2rem;
+}
+
+.portfolio-container__carousel__btn, .portfolio-container__carousel__btn__active {
+  content: "";
+  height: 0.5rem;
+  width: 0.5rem;
+  background: #ded2c6;
+  margin: 0.3rem;
+}
+
+.portfolio-container__carousel__btn:hover, .portfolio-container__carousel__btn__active:hover {
+  cursor: pointer;
+}
+
+.portfolio-container__carousel__btn__active {
+  background: #8b8784;
+}
+
+hr {
+  color: #e5e9ec;
+  margin: 1rem 2rem;
+}
+
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 60vh;
+  background: #2eb398;
+  padding: 5rem;
+}
+
+.about-container__image {
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-size: cover;
+  height: 12rem;
+  width: 12rem;
+  line-height: 12rem;
+  margin: 0 0.5rem;
+  background-position: center;
+  background-image: url("../../images/about_me/about-me.png");
+}
+
+.about-container__line hr {
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-top: 1px solid #219d85;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.about-container__content__text {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  text-align: left;
+  max-width: 60vw;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.about-container__content__text h1 {
+  color: #d7fcf5;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 2.5rem;
+}
+
+.about-container__content__text p {
+  color: #d7fcf5;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+.about-container__content__text h3 {
+  color: #23806d;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.about-container__content__social-icons {
+  text-align: right;
+}
+
+.about-container__content__social-icons a {
+  text-decoration: none;
+}
+
+.about-container__content__social-icons .fa-facebook-square,
+.about-container__content__social-icons .fa-twitter-square,
+.about-container__content__social-icons .fa-google-plus-square,
+.about-container__content__social-icons .fa-pinterest-square,
+.about-container__content__social-icons .fa-linkedin {
+  color: #23806d;
+}
+
+.about-container__content__social-icons i {
+  display: inline-block;
+}
+
+.fab i {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background: #323232;
+  color: #e0e0e0;
+  text-align: left;
+  padding: 5rem 10rem;
+}
+
+.form-container h1 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.form-container h3 {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.form-container__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  text-align: justify;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.form-container__content #form {
+  width: 40vw;
+  margin-right: 3vw;
+}
+
+.form-container__content__form input {
+  opacity: 100%;
+  background: #686666;
+  margin: 1.5rem 0rem;
+  color: #000000 !important;
+  border: none;
+}
+
+.form-container__content__form__button__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.form-container__content__form__button__container__button {
+  content: "";
+  border: none;
+  min-height: 50px;
+  min-width: 100px;
+  line-height: 50px;
+  background-color: #2eb398;
+  color: #e0e0e0;
+  font-style: 700;
+}
+
+.form-container__content__text {
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  max-width: 25vw;
+  padding: 0 3vw 0 2vw;
+  text-align: left;
+  line-height: 2;
+  margin-top: 1.5rem;
+}
+
+.form-container__content__text__description {
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+
+.form-container__content__text__contact {
+  font-weight: 700;
+}
+
+.form-container__content__text__contact__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.form-container__content__text__contact__item__icon img {
+  height: 25px;
+  width: 25px;
+  padding-right: 5px;
+}
+
+.form-container #form-errors, .form-container #form-success {
+  display: none;
+  color: #e65353;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+.form-container #form-success {
+  color: #d7fcf5;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 10vh;
+  background: #222222;
+  color: #8b8784;
+  text-align: left;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  padding-left: 2rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,16 @@
+@import "resets";
+@import "config";
+@import "nav";
+@import "portfolio";
+@import "about-me";
+@import "form";
+
+footer {
+    @include flex-center(column);
+    height: 10vh;
+    background: $background-footer;
+    color: $font-footer;
+    text-align: left;
+    font-family: $font-paragraph;
+    padding-left: 2rem;
+}
